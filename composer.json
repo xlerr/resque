@@ -1,0 +1,27 @@
+{
+    "author": [
+        {
+            "email": "496366543@qq.com",
+            "name": "xlerr",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "xlerr\\resque\\": "./"
+        }
+    },
+    "description": "消息列队",
+    "keywords": [
+        "sendcloud",
+        "email",
+        "sms",
+        "yii2"
+    ],
+    "license": "BSD-3-Clause",
+    "name": "xlerr/resque",
+    "require": {
+        "chrisboulton/php-resque": "^1.2"
+    },
+    "type": "plugin"
+}
