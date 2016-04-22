@@ -1,7 +1,7 @@
 Resque
 =======================================
 
-## 向队列添加工作 ##
+### 向队列添加工作 ###
 	use xlerr\resque\Resque;
 	use xlerr\resque\Job;
 	 
@@ -18,14 +18,14 @@ Resque
 	return "Queued job ".$jobId."\n\n";
 
 
-## 怎样开始处理列队 ##
+### 怎样开始处理列队 ###
 
-### 在console中配置启动控制器 ###
+###### 在console中配置启动控制器 ######
 	'controllerMap' => [
 		'resque' => [
 			'class' => 'xlerr\resque\controllers\ResqueController',
 		],
 	],
 
-### 执行控制台命令 ###
+###### 执行控制台命令 ######
 	./yii resque/start
