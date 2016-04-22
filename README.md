@@ -28,4 +28,4 @@ Resque
 	],
 
 ###### 执行控制台命令 ######
-	./yii resque/start 
+	./yii resque/start
