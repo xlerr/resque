@@ -11,11 +11,9 @@
             "xlerr\\resque\\": "./"
         }
     },
-    "description": "消息列队",
+    "description": "YII2消息列队",
     "keywords": [
-        "sendcloud",
-        "email",
-        "sms",
+        "resque",
         "yii2"
     ],
     "license": "BSD-3-Clause",
